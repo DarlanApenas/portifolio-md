@@ -11,7 +11,7 @@
 }
 
 ::selection {
-  background: #f54260;
+  background: #4261f5;
   color: #000
 }
 
@@ -33,7 +33,7 @@ h6 {
 }
 
 a {
-  color: #f54260;
+  color: #4261f5;
   text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ h1 {
   line-height: 1.2em;
 }
 h2 {
-  color: #f54260;
+  color: #4261f5;
   font-size: 2em;
   line-height: 2em;
 }
@@ -71,7 +71,7 @@ h6 {
 }
 
 h6 {
-  color: #f54260;
+  color: #4261f5;
 }
 
 hr {
@@ -163,7 +163,7 @@ iframe {
   line-height: 1em;
   text-align: left;
   text-transform: lowercase;
-  color: #f54260;
+  color: #4261f5;
 }
 
 .subhead a:hover {
@@ -183,7 +183,7 @@ iframe {
 }
 
 .work a:hover {
-  background-color: #f54260;
+  background-color: #4261f5;
 }
 
 .work a p {
@@ -198,7 +198,7 @@ iframe {
 }
 
 .footer {
-  color: #f54260;
+  color: #4261f5;
 }
 
 

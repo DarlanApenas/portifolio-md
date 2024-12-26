@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css'; // Aqui ficarão os estilos do projeto
+import './App.css';
 
 const App = () => {
   return (
