@@ -1,11 +1,7 @@
-.title-section h2 {
-  color: #fff;
-}
-
 .demo-page {
   background: #000;
   color: #fff;
-  padding: 5em 10% 3em 10%;
+  padding: 5em 2em 3em 2em; /* padding horizontal reduzido */
   min-height: 100vh;
   box-sizing: border-box;
 }
@@ -40,6 +36,7 @@
   color: #670e94;
   text-transform: uppercase;
   font-family: "Monument Extended Black";
+  text-align: left;
 }
 
 .demo-description {
@@ -47,6 +44,15 @@
   line-height: 1.6em;
   color: #fff;
   max-width: 800px;
+  text-align: left;
+}
+
+.title-section {
+  color: #fff;
+  font-size: 1.8em;
+  text-align: left;
+  margin: 2em 0 1em 0;
+  padding-left: 0;
 }
 
 .video-grid {
