@@ -11,7 +11,7 @@
 }
 
 ::selection {
-  background: #4261f5;
+  background: #670e94;
   color: #000
 }
 
@@ -33,7 +33,7 @@ h6 {
 }
 
 a {
-  color: #4261f5;
+  color: #670e94;
   text-decoration: none;
 }
 
@@ -72,7 +72,7 @@ h6 {
 }
 
 h6 {
-  color: #4261f5;
+  color: #670e94;
 }
 
 hr {
@@ -107,8 +107,11 @@ footer {
 }
 
 .wrapper {
-  width: 80%;
+  width: 100%;
+  padding-left: 2em;
+  box-sizing: border-box;
 }
+
 
 article {
   flex-direction: row;
@@ -165,34 +168,37 @@ iframe {
   line-height: 1em;
   text-align: left;
   text-transform: lowercase;
-  color: #4261f5;
+  color: #670e94;
 }
 
 .subhead a:hover {
   color: #fff;
 }
 
+
 .work {
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: flex-start;
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .work a {
-  margin: 0 0 -2em -2em;
-  padding: 1.5em 2em;
+  padding: 0.8em 1em;
+  margin-left: 0;
+  display: inline-block;
+  margin-left: -0.6em;
 }
 
 .work a:hover {
-  background-color: #4261f5;
+  background-color: #670e94;
 }
 
 .work a p {
-  position: relative;
   font-size: 4em;
   line-height: 1em;
   text-transform: uppercase;
+  color: #fff;
+  margin: 0;
 }
 
 .work a:hover p {
@@ -200,26 +206,24 @@ iframe {
 }
 
 .footer {
-  color: #4261f5;
+  color: #670e94;
 }
 
 .work-link {
-  margin: 0 0 5em -4em;
-  padding: 0.5em 1em;
-  display: inline-block;
-  text-decoration: none;
-  color: #4261f5;
+  display: block;
+  padding: 2em 0;
+  transition: transform 0.2s ease-out;
 }
-
 .work-link:hover {
-  background-color: #4261f5;
+  transform: scale(1.02);
 }
 
 .work-link p {
   font-size: 4em;
-  line-height: 1em;
-  text-transform: uppercase;
+  line-height: 1;
+  margin: 0;
   color: #fff;
+  text-transform: uppercase;
 }
 
 .work-link:hover p {

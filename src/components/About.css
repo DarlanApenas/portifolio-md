@@ -7,9 +7,9 @@
   color: #fff;
   padding: 0 10%;
   gap: 4em;
-  height: 100vh; /* Troquei de min-height para height */
+  height: 100vh;
   overflow: hidden;
-  position: relative; /* Necessário para posicionar o botão */
+  position: relative;
 }
 
 .about-image img {
@@ -23,7 +23,7 @@
 }
 
 .about-text h1 {
-  color: #4261f5;
+  color: #670e94;
   font-size: 3em;
   margin-bottom: 1em;
 }
@@ -35,7 +35,7 @@
 }
 
 .about-text a {
-  color: #4261f5;
+  color: #670e94;
   text-decoration: none;
 }
 
@@ -48,7 +48,7 @@
   top: 20px;
   left: 20px;
   background-color: transparent;
-  color: #4261f5;
+  color: #670e94;
   border: none;
   padding: 0.6em 1em;
   border-radius: 5px;

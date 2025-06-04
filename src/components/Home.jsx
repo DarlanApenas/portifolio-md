@@ -11,13 +11,13 @@ function Home() {
           <section className="wrapper">
             <a className="title">DARLAN</a>
             <nav className="subhead">
-              <a href="#">Motion Design &amp; Dev</a>
+              <a>Motion Design &amp; Dev</a>
             </nav>
             <nav className="nav menu">
               <Link to="/about">
                 <a>about</a>
               </Link>
-              <a href="#">contact</a>
+              <a>contact</a>
             </nav>
             <nav className="nav social mobile-hide">
               <a href="https://github.com/DarlanApenas" target="_blank" rel="noopener noreferrer">github</a>
