@@ -1,34 +1,44 @@
 .demo-page {
   background: #000;
   color: #fff;
-  padding: 5em 2em 3em 2em; /* padding horizontal reduzido */
+  padding: 2em;
   min-height: 100vh;
   box-sizing: border-box;
+  padding-left: 0;
+}
+.demo-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 0;
+  margin-left: 0;
+  width: 100%;
 }
 
 .back-button {
-  position: fixed;
-  top: 2em;
-  left: 2em;
-  font-size: 1.2em;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: transparent;
   color: #670e94;
-  text-decoration: none;
-  z-index: 10;
-  transition: transform 0.2s ease-out;
+  border: none;
+  padding: 0.6em 1em;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
 
 .back-button:hover {
   color: #fff;
-  transform: scale(1.05);
 }
 
 .demo-content {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 2em;
-  padding-top: 2em;
 }
 
 .demo-title {
@@ -51,14 +61,13 @@
   color: #fff;
   font-size: 1.8em;
   text-align: left;
-  margin: 2em 0 1em 0;
-  padding-left: 0;
+  margin: 0.1em;
 }
 
 .video-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2em;
+  gap: 1em;
   width: 100%;
 }
 

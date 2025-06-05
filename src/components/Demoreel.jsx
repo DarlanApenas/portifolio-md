@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Showreel.css';
+import './Demoreel.css';
 
 function Showreel() {
   return (
@@ -8,10 +8,14 @@ function Showreel() {
       <Link to="/" className="back-button">←</Link>
 
       <section className="demo-content">
-        <h1 className="demo-title">video editor</h1>
-        <p className="demo-description">
-          Aqui você pode ver os vídeos que eu atuei como editor.
-        </p>
+        <div className="demo-header">
+          <h1 className="demo-title">video editor</h1>
+          <p className="demo-description">
+            Aqui você pode ver os vídeos que<br>
+            </br> eu atuei como editor.
+          </p>
+        </div>
+
         <section className="video-section">
           <h2 className='title-section'>Gameplay</h2>
           <div className="video-grid">
@@ -43,9 +47,9 @@ function Showreel() {
         <section className="video-section">
           <h2 className='title-section'>Visualizers</h2>
           <div className="video-grid">
-            <iframe 
-            src="https://www.youtube.com/embed/ptqTh7-IS2k?si=2FaljYOuX4dLXSBT" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            <iframe
+              src="https://www.youtube.com/embed/ptqTh7-IS2k?si=2FaljYOuX4dLXSBT"
+              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             </iframe>
             <iframe src="https://www.youtube.com/embed/iwz0OebTQ9k?si=Yg_Am_wZK4uad9x8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             </iframe>

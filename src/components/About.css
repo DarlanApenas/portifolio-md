@@ -43,21 +43,3 @@
   text-decoration: underline;
 }
 
-.back-button {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  background-color: transparent;
-  color: #670e94;
-  border: none;
-  padding: 0.6em 1em;
-  border-radius: 5px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-.back-button:hover {
-  color: #fff;
-}
-
