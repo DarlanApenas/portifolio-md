@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Monument Extended Regular";
-  src: url("/public/fonts/monument-extended/MonumentExtended-Regular.otf") format("opentype");
+  src: url("fonts/monument-extended/MonumentExtended-Regular.otf") format("opentype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Monument Extended Black";
-  src: url("/public/fonts/monument-extended/monument-extended-black.ttf") format("opentype");
+  src: url("fonts/monument-extended/monument-extended-black.ttf") format("opentype");
   font-weight: bold;
 }
 
@@ -148,7 +148,7 @@ footer {
   text-transform: lowercase;
   color: #670e94;
   padding: 0;
-  margin-left: 0.2em; /* menor para alinhar melhor */
+  margin-left: 0.2em;
 }
 
 .subhead:hover {
@@ -342,9 +342,15 @@ iframe {
   .menu a {
     margin-left: 1em;
   }
-
   .social {
     left: 2%;
     bottom: 1em;
+  }
+}
+
+@media (max-width: 390px) {
+  .menu {
+    top: 2.3em;
+    right: 0em;
   }
 }
