@@ -1,0 +1,80 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+.motion-container {
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.motion-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.motion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.motion-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.motion-item img {
+  width: 100%;
+  max-width: 360px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #670e94;
+  transition: transform 0.3s ease;
+}
+
+.motion-item img:hover {
+  transform: scale(1.03);
+}
+
+.motion-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.motion-description {
+  font-size: 0.9rem;
+  color: #a0a0a0;
+  margin-top: 0.5rem;
+  max-width: 320px;
+}
+@media (max-width: 480px) {
+  .motion-title {
+    font-size: 1.8rem;
+  }
+
+  .motion-name {
+    font-size: 1rem;
+  }
+
+  .motion-description {
+    font-size: 0.8rem;
+  }
+
+  .motion-back {
+    font-size: 1.2rem;
+    top: 0.8rem;
+    left: 0.8rem;
+  }
+}

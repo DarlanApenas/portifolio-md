@@ -6,13 +6,10 @@ function Showreel() {
   return (
     <main className="demo-page">
       <Link to="/" className="back-button">←</Link>
-
       <section className="demo-content">
         <div className="demo-header">
           <h1 className="demo-title">video editor</h1>
           <p className="demo-description">
-            Aqui você pode ver os vídeos que<br>
-            </br> eu atuei como editor.
           </p>
         </div>
 

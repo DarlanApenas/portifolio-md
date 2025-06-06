@@ -1,15 +1,15 @@
 import './About.css';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
+
 
 const About = () => {
   const navigate = useNavigate();
 
   return (
     <div className="about-page">
-      <button className="back-button" onClick={() => navigate('/')}>←</button>
-
+      <Link to="/" className="back-button">←</Link>
       <div className="about-image">
-        <img src="/about-image.png" alt="Sobre mim" />
+        <img src="/about-image.webp" alt="Sobre mim" />
       </div>
 
       <div className="about-text">
