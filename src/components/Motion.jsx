@@ -6,32 +6,32 @@ const projects = [
   {
     title: '4AM Records',
     description: 'Animação da logo da gravadora 4AM.',
-    gif: './src/gifs/4am-logo.gif',
+    gif: '/4am-logo.gif',
   },
   {
     title: 'São João - Capim',
     description: 'Animação para campanha publicitária do São João em Capim - PB.',
-    gif: '/src/gifs/São João - Capim.gif',
+    gif: '/São João - Capim.gif',
   },
   {
     title: 'Pomodoro.fy',
     description: 'Motion design para um projeto pessoal chamado Pomodoro.fy.',
-    gif: '/src/gifs/Pomodoro.gif',
+    gif: '/Pomodoro.gif',
   },
     {
     title: 'Logo Gessimar',
     description: 'Animação para campanha publicitária para um candidato a vereador da região.',
-    gif: '/src/gifs/Gessimar.gif',
+    gif: '/Gessimar.gif',
   },
       {
     title: 'Tea Animation',
     description: 'Animação pessoal para um projeto de chá.',
-    gif: '/src/gifs/Tea.gif',
+    gif: '/Tea.gif',
   },
       {
     title: 'Verificado',
     description: 'Animação simples do emoji verificado.',
-    gif: '/src/gifs/Verificado.gif',
+    gif: '/Verificado.gif',
   }
 ];
 
