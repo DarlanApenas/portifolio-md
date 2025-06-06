@@ -20,8 +20,18 @@ const projects = [
   },
     {
     title: 'Logo Gessimar',
-    description: 'Motion design simples para um candidato a vereador da região.',
+    description: 'Animação para campanha publicitária para um candidato a vereador da região.',
     gif: '/src/gifs/Gessimar.gif',
+  },
+      {
+    title: 'Tea Animation',
+    description: 'Animação pessoal para um projeto de chá.',
+    gif: '/src/gifs/Tea.gif',
+  },
+      {
+    title: 'Verificado',
+    description: 'Animação simples do emoji verificado.',
+    gif: '/src/gifs/Verificado.gif',
   }
 ];
 
